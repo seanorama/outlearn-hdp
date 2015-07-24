@@ -5,7 +5,7 @@
     {
       "name" : "hortonworks-tutorial",
       "title" : "Getting Started with HDP",
-      "description" : "This tutorial describes how to refine data for a Trucking IoT  Data Discovery (aka IoT Discovery) use case using the Hortonworks Data Platform. The IoT Discovery use cases involves vehicles, devices and people moving across a map or similar surface.",
+      "description" : "This tutorial describes how to refine data for a Trucking IoT  Data Discovery (aka IoT Discovery) use case using the Hortonworks Data Platform. The IoT Discovery use cases involves vehicles, devices and people moving across a map or similar surface. Your analysis is interested in tying together location information with your analytic data.",
       "coverImage" : "https://raw.githubusercontent.com/outlearn-content/hortonworks/master/assets/seashore.jpg",
       "privacy" : "public",
       "pages" : [
