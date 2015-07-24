@@ -52,13 +52,15 @@ The [Hive ODBC driver](http://hortonworks.com/hdp/addons/) can be found at the H
 3. Next prompt shall ask you to enter login and password. Type “sandbox” in login and the leave the password empty. Hit Ok.
     ![Lab5_2](http://hortonworks.com/wp-content/uploads/2015/07/Lab5_2.png)
 
-4. Choose the data table avg_mileage table from the table chart on the right and hit      Add Table. avg_mileage should now appear under Query View tab on the left. Choose avg_mileage.* in the Field column. You are set to import data from your Hive table. As a final step, Hit Test!
+4. Choose the data table avg\_mileage table from the table chart on the right and hit      Add Table. avg\_mileage should now appear under Query View tab on the left. Choose avg\_.* in the Field column. You are set to import data from your Hive table. As a final step, Hit Test!
     ![Lab5_3](http://hortonworks.com/wp-content/uploads/2015/07/Lab5_3.png)
 
 5.  Click on Return Data to import your table into an excel. Submit OK to populate your excel.
     ![Lab5_4](http://hortonworks.com/wp-content/uploads/2015/07/Lab5_4.png)
 
-6.  Once the data is placed you will see the avg_mileage table imported into your spreadsheet.
+6.  Once the data is placed you will see the avg\_mileage table imported into your spreadsheet.
+
+
 
 ### For Windows users:
 
@@ -71,12 +73,20 @@ The [Hive ODBC driver](http://hortonworks.com/hdp/addons/) can be found at the H
 3.  The data is placed you will see the avg_mileage table imported into your spreadsheet.
     ![Lab5_7](http://hortonworks.com/wp-content/uploads/2015/07/Lab5_7.jpg)
 
+### Tasks
+
+<!-- @task, "text" : "Install the ODBC driver."-->
+
+<!-- @task, "text" : "Import your data into Excel."-->
+
 <!-- @section -->
 
 ## Step 5.b.2: Visualize Data with Microsoft Excel
 
 1. So now we are going to insert a Power View report. We do this by selecting the “Insert” tab at the top and select “Power View Reports” button in the middle. This will create a new tab in your workbook with the data inserted in the Power View page.”
     ![Lab5_14](http://hortonworks.com/wp-content/uploads/2015/07/Lab5_14.jpg)
+
+<!-- @task, "text" : "Insert a Power View report."-->
 
 2.  Select the design tab at the top and then select a column chart and use the stacked column version in the drop down menu. This will give you a bar chart. Grab the lower right of the chart and stretch it out to the full pane. Close the filter tab and the chart will expand and look like this.
     ![Lab5_9](http://hortonworks.com/wp-content/uploads/2015/07/Lab5_9.jpg)
@@ -96,7 +106,7 @@ The [Hive ODBC driver](http://hortonworks.com/hdp/addons/) can be found at the H
     ![Lab5_11](http://hortonworks.com/wp-content/uploads/2015/07/Lab5_11.png)
 
 7.  Since my results look fine I now need to capture the result in a table. So I will use the select statement as part of my CTAS (create table select as) pattern. I will call the table events and the query now looks like this.  
-— Create table avg_mileage from existing trucks_mileage data
+— Create table avg\_mileage from existing trucks\_mileage data
     ```
     CREATE TABLE events
     STORED AS ORC
@@ -110,10 +120,14 @@ The [Hive ODBC driver](http://hortonworks.com/hdp/addons/) can be found at the H
 
     ![Lab5_13](http://hortonworks.com/wp-content/uploads/2015/07/Lab5_13.jpg)
 
+<!-- @task, "text" : "Import your data into Excel."-->
+
 9.  Now I can insert the PowerView tab in the Excel workbook. To get a map I just select the Design tab at the top and select the Map button in the menu bar.
     ![Lab5_14](http://hortonworks.com/wp-content/uploads/2015/07/Lab5_14.jpg)
 
 10.  Make sure you have a network connection because Power View using Bing to do the geocoding which translates the city and state columns into map coordinates. If we just want to see where events took place we can uncheck the driverid. The finished map looks like this.
     ![Lab5_15](http://hortonworks.com/wp-content/uploads/2015/07/Lab5_15.jpg)
+
+<!-- @task, "text" : "Produce a finished map."-->    
 
 We’ve shown how the Hortonworks Data Platform (HDP) can store and analyze geolocation data. In addition I have shown you a few techniques on building your own queries. You can easily plot risk factor and miles per gallon as bar charts. I showed you the basics of creating maps. A good next step is to only plot certain types of events. Using the pattern I gave you it is pretty straight forward to extract the data and visualize it in Excel.
