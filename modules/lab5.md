@@ -43,7 +43,7 @@ The tutorial is a part of series of hands on tutorial to get you started on HDP 
 
 The [Hive ODBC driver](http://hortonworks.com/hdp/addons/) can be found at the Hortonworks Add-on page.  For [Windows ODBC driver setup](http://hortonworks.com/hadoop-tutorial/how-to-install-and-configure-the-hortonworks-odbc-driver-on-windows-7/) follow these instructions and these are the [Mac ODBC driver setup](http://hortonworks.com/hadoop-tutorial/how-to-install-and-configure-the-hortonworks-odbc-driver-on-mac-os-x/) instructions.   Open the ODBC connection manager and open the connection you setup up. It should look like this. Click on the test button and it should report success. If the test fails you will need to troubleshoot the connection before you can go on.
 
-### For Mac Users:-
+### For Mac Users:
 
 1. Open a new blank workbook. Select Data tab at the top then select “Get External Data” and then select “New Database query”.
 2. Chose Sample Hortonworks Hive DSN and hit Ok.
@@ -60,7 +60,7 @@ The [Hive ODBC driver](http://hortonworks.com/hdp/addons/) can be found at the H
 
 6.  Once the data is placed you will see the avg_mileage table imported into your spreadsheet.
 
-### For Windows users:-
+### For Windows users:
 
 1. Open a new blank workbook. Select Data tab at the top then select “Get External Data” and then select “From Other Data Sources”. Then at the bottom select “From Microsoft Query”. Choose your data source and ours is called Hadoop and you will then see the Query Wizard. We will import the avg_mileage table.
     ![Lab5_6](http://hortonworks.com/wp-content/uploads/2015/07/Lab5_6.png)
