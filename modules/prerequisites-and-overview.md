@@ -30,6 +30,10 @@
 >
 >Note, other versions of Excel will work, but the visualizations will be limited to charts or graphs. You can also use other visualization tool.
 
+ <!-- @task, "text" : "Download and install Hortonworks Sandbox."-->
+
+ <!-- @task, "text" : "Download the Geolocation dataset."-->
+
 <!-- @section -->
 
 ## Tutorial Overview
