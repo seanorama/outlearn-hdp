@@ -3,7 +3,7 @@
 "name" : "prerequisites-and-overview",
 "version" : "0.1",
 "title" : "Prerequisites and Overview",
-"description": "In this section, we will use Microsoft Excel Professional Plus 2013 to access the refined data.",
+"description": "In this Module, we will use Microsoft Excel Professional Plus 2013 to access the refined data.",
 "freshnessDate" : 2015-07-23,
 "homepage" : "http://hortonworks.com/hadoop-tutorial/hello-world-an-introduction-to-hadoop-hcatalog-hive-and-pig/#section_11",
 "license" : "All Rights Reserved"

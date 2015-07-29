@@ -11,6 +11,15 @@
       "pages" : [
         {"page" : "./pages/preface.md"},
         {"module" : "prerequisites-and-overview"},
+        {"module" : "hadoop-and-hdp"},
+        {"module" : "hdfs"},
+        {"module" : "mapreduce-and-yarn"},
+        {"module" : "hive-and-pig"},
+        {"module" : "lab0"},
+        {"module" : "lab1"},
+        {"module" : "lab2"},
+        {"module" : "lab3"},
+        {"module" : "lab4"},
         {"module" : "lab5"},
         {"module" : "crash-course"},
         {"page" : "./pages/next-steps.md"}
@@ -21,6 +30,15 @@
   "modules" : [
     {"olm" : "./modules/prerequisites-and-overview.md"},
     {"olm" : "./modules/crash-course.md"},
+    {"olm" : "./modules/hadoop-and-hdp.md"},
+    {"olm" : "./modules/hdfs.md"},
+    {"olm" : "./modules/mapreduce-and-yarn.md"},
+    {"olm" : "./modules/hive-and-pig.md"},
+    {"olm" : "./modules/lab0.md"},
+    {"olm" : "./modules/lab1.md"},
+    {"olm" : "./modules/lab2.md"},
+    {"olm" : "./modules/lab3.md"},
+    {"olm" : "./modules/lab4.md"},
     {"olm" : "./modules/lab5.md"}
   ],
 
