@@ -71,7 +71,7 @@ Here is a short video introduction on Tez.
 
 <!-- @section -->
 
-### **Stinger and Stinger.next**
+### Stinger and Stinger.next
 
 The Stinger Initiative was started to enable Hive to support an even broader range of use cases at truly Big Data scale: bringing it beyond its Batch roots to support interactive queries – all with a common SQL access layer.
 
@@ -118,7 +118,7 @@ The Apache Hive project provides a data warehouse view of the data in HDFS. Usin
 
 <!-- @section -->
 
-### **Introduction: Apache Pig**
+### Introduction: Apache Pig
 
 MapReduce allows allows you to specify map and reduce functions, but working out how to fit your data processing into this pattern may sometimes require you to write multiple MapReduce stages. With Pig, data structures are much richer and the transformations you can apply to data are much more powerful.
 
